@@ -3,8 +3,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-export SETUPTOOLS_SCM_PRETEND_VERSION=3.0.1
-export PYBUILD_NAME=jaraco.functools
+export SETUPTOOLS_SCM_PRETEND_VERSION=5.0.0
+export PYBUILD_NAME=jaraco.itertools
 
 %:
 	dh $@ --with python3 --buildsys=pybuild --test-pytest
